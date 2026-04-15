@@ -1,12 +1,6 @@
-# Netflix Content Quality & User Churn — Regression Analysis
+# Netflix Content Quality & User Churn - Regression Analysis
 
-> **Course:** GSBA 545 — Data-Driven Decision Making | USC Marshall School of Business | Fall 2025  
-> **Team B9:** Yuhan (Wynter) Zhu, Vinish Dhir, Supraja Sridharan, Pin-Sheng Chen (Kyro), Haewon Kim (Hanna), Yan Yang (Claire), Alexei Orlov  
-> **Professor:** Dawn Porter
-
----
-
-## 📌 Project Overview
+## Project Overview
 
 This project investigates whether the availability of **higher-rated Netflix content** in a user's region is associated with a **lower likelihood of churn**. Using multivariate linear regression, we examined whether content quality plays a significant role in subscriber retention — a question increasingly relevant as streaming platforms compete through original content investment.
 
