@@ -6,13 +6,13 @@ This project investigates whether the availability of **higher-rated Netflix con
 
 ---
 
-## 🔍 Research Question
+## Research Question
 
 > **Does the average IMDb rating of Netflix content available in a user's country predict lower user churn?**
 
 ---
 
-## 📂 Data Sources
+## Data Sources
 
 All datasets were sourced from **Kaggle**:
 
@@ -25,7 +25,7 @@ All datasets were sourced from **Kaggle**:
 
 ---
 
-## 🧮 Model
+## Model
 
 **OLS Multivariate Linear Regression:**
 
@@ -43,7 +43,7 @@ churn_i = β0 + β1 * avg_rating_available_i + β2 * Age_i
 
 ---
 
-## 📊 Key Results
+## Key Results
 
 | Variable | Coefficient | Interpretation |
 |---|---|---|
@@ -58,7 +58,7 @@ churn_i = β0 + β1 * avg_rating_available_i + β2 * Age_i
 
 ---
 
-## 💡 Key Insights
+## Key Insights
 
 - Higher-rated regional content is **statistically significantly associated with lower churn**, supporting the hypothesis.
 - **Drama** is the genre most strongly linked to subscriber retention.
@@ -68,7 +68,7 @@ churn_i = β0 + β1 * avg_rating_available_i + β2 * Age_i
 
 ---
 
-## 🔧 Tools & Methods
+## Tools & Methods
 
 - **Language:** Python
 - **Libraries:** `numpy`, `pandas`, `statsmodels`
@@ -78,7 +78,7 @@ churn_i = β0 + β1 * avg_rating_available_i + β2 * Age_i
 
 ---
 
-## 📋 Limitations & Future Work
+## Limitations & Future Work
 
 - **Low R²** — many behavioral drivers of churn (recency, session patterns) were not available
 - IMDb ratings are a **proxy** for content quality; individual preferences vary widely
